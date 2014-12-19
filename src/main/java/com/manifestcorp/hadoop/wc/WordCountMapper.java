@@ -13,8 +13,9 @@ public class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritabl
 	
 	private static final IntWritable ONE = new IntWritable(1);
 	private Text word = new Text();
-	
+
 	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+
 		String[] words = value.toString().split(SPACE);
 		
 		for (String str: words) {
