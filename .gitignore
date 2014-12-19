@@ -16,3 +16,7 @@ target
 .settings
 .classpath
 .project
+
+# intellij project files
+.idea
+*.iml
