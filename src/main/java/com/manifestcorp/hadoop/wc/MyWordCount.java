@@ -7,6 +7,9 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
+/**
+ * Driver Class. 
+ */
 public class MyWordCount {
 
 	public static void main(String[] args) throws Exception {
